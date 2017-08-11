@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    position: relative;
+}
+@font-face {
+    font-family: "blibee-wxapp";
+    src: url(../font/iconfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+div {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.iconfont {
+      font-family: "blibee-wxapp" !important;
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+}
